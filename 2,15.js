@@ -35,7 +35,6 @@ function zadacha2 (){
 let a=prompt("enter a", 2);
 let b=prompt("enter b", -2);
 
-
 function min(){
    return a<b? a : b;
  }
@@ -43,3 +42,4 @@ let minimum=min(a,b);
 
 alert(minimum);
 }
+
