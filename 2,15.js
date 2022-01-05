@@ -43,3 +43,17 @@ let minimum=min(a,b);
 alert(minimum);
 }
 
+/* Напишите функцию pow(x,n), которая возвращает x в степени n. 
+Иначе говоря, умножает x на себя n раз и возвращает результат. */
+
+function zadacha3 () {
+    let a=+prompt("enter a", 2);
+    let b=+prompt("enter b", 2);
+function pow(){
+    for(let i=1; i<b; i++){
+     a=a*a
+    }
+    return a;
+}
+alert(pow(a,b))
+}
