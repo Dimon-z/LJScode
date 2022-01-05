@@ -16,14 +16,21 @@
     }
   } */
 
+
+
+function zadacha1 (){
+let age=+prompt("enter age", 18);
+let x=checkAge();
   /* function checkAge() {
       return (age>17)? true : (confirm("Parents agreed?"));
   } */
-
-let age=+prompt("enter age", 18);
-let x=checkAge();
-
 function checkAge(){
 return (age>17)||confirm("Parents agreed?");
 }
 console.log(x);
+}
+/* Напишите функцию min(a,b), которая возвращает меньшее из чисел a и b. */
+
+function min(a,b){
+    return (a>b)?a:b;
+}
