@@ -14,16 +14,14 @@ alert(styles);
 let array = [ ] ;
 let x;
 let sum=0;
-let i=0;
 function sumInput() {
     do {
         x = prompt("enter numbers",0);
         if (x===""||x===null) {
             return null;
         }
-        if (isFinite(x)===true) { array[i]= +x, sum = +x+sum
+        if (isFinite(x)===true) { array.push= +x, sum = +x+sum
         }
-        i++;
     }
     while(isFinite(x)===true);
     return sum;
