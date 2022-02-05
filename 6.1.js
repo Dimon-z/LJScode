@@ -1,12 +1,13 @@
 "use strict"
 
-function sumTo1(n){
+/* function sumTo1(n){
     let sum=0;
         for (let i = 0; i < n+1; i++) {
             sum = sum + i;
         }
     return sum;
 }
+
 console.log(sumTo1(4));
 
 function sumTo2(n){
@@ -24,6 +25,10 @@ function sumTo3(n){
     return sum;
 }
 
-console.log(sumTo3(4));
+console.log(sumTo3(4)); */
 
 
+function fib(n) {
+    return n <= 1 ? n : fib(n - 1) + fib(n - 2);
+  }
+console.log(fib(77))
