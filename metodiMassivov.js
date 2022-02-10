@@ -4,15 +4,10 @@
 
 function moveToStart(array,n){
     let length = array.length;
-    let newarray=[];
-    if(n<array.length){
-        newarray=array.slice(-n,length)+","+array.slice(0,length-n);
-        return newarray;
-    } else {
-        newarray=array.slice(0,length);
-        return newarray;
-    }
-
+        if(n<array.length){
+          return array.slice(-n).concat(array.slice(0,-n));
+        }  //concat
+          return array.slice(0,length);
 }
 
 let arr=[1,2,3,4,5,6,7,8,];
@@ -35,7 +30,7 @@ function getNumbersByParity(array,str){
 
         case "even":
         return array.filter(value=>value%2===0);
-    
+        break;
         case "odd":
         return array.filter(value=>value%2===1);
     }
@@ -76,11 +71,11 @@ function getStringCount(obj){
             return 1;
         }
 
-        if (typeof(obj)!=="object"){
+        if (!obj){
             return 0;
         }
         
-    return Object.values(obj).reduce((accum,current)=>accum+getStringCount(current),0)
+        return Object.values(obj).reduce((accum,current)=>accum+getStringCount(current),0)
 }
 
 
