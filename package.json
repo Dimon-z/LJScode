@@ -1,0 +1,24 @@
+{
+  "name": "ljscode",
+  "version": "1.0.0",
+  "description": "some code of learn kava script site\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[j",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimon-z/LJScode.git"
+  },
+  "author": "dimon__\u001b[B\u001b[Dz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dimon-z/LJScode/issues"
+  },
+  "homepage": "https://github.com/Dimon-z/LJScode#readme",
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
