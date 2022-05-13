@@ -1,7 +1,8 @@
-"use strict"
+'use strict';
+
 /* Следующая функция возвращает true, если параметр age больше 18.
 В ином случае она задаёт вопрос confirm и возвращает его результат.
-Перепишите функцию, чтобы она делала то же самое, но без if, 
+Перепишите функцию, чтобы она делала то же самое, но без if,
 в одну строку.
 Сделайте два варианта функции checkAge:
 
@@ -16,11 +17,9 @@
     }
   } */
 
-
-
-function zadacha1 (){
-let age=+prompt("enter age", 18);
-let x=checkAge();
+function zadacha1() {
+  const age = +prompt("enter age", 18);
+  const x = checkAge();
   /* function checkAge() {
       return (age>17)? true : (confirm("Parents agreed?"));
   } */
